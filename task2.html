@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Document</title>
+</head>
+<style>
+.container {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.container img {
+width: 30%;
+margin: 10px;
+}
+@media screen and (max-width: 800px) {
+.container img {
+width: 45%;
+}
+}
+@media screen and (max-width: 500px) {
+.container img {
+width: 100%;
+}
+}
+</style>
+<body>
+<div class="container">
+<img src="https://cdn.pixabay.com/photo/2020/02/19/07/04/girl-4861508_1280.jpg" alt="a" />
+<img src="https://cdn.pixabay.com/photo/2020/02/19/07/04/girl-4861508_1280.jpg" alt="b" />
+<img src="https://cdn.pixabay.com/photo/2020/02/19/07/04/girl-4861508_1280.jpg" alt="c" />
+</div>
+</body>
+</html>
